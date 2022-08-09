@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;   
+    background: linear-gradient(white, rgb(0, 119, 128))
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;    
+}
+
+.logo-instagram-cabecalho{
+    height: 72px;    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;    
+}
+
+.cabecalho-menu-item{
+    display: flex;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+    color: rgb(240, 83, 83);
+    font-weight: 400;
+}
+
+.conteudo{
+    margin-bottom: 40px;
+    border-top: 0.4px solid rgb(248, 150, 150);
+    justify-content: center;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto-perfil{
+    height: 200px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.conteudo-principal-escrito-ditado{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: red;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-secundario{
+    display: flex; 
+    padding: 30px;   
+    justify-content: center;
+    align-content: center;   
+    gap: 24px;
+    margin-top: 40px;      
+}
+
+.foto-celular{
+    height: 250px;
+}
+
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.conteudo-secundario-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape{    
+    padding: 32px;
+    border-top: 0.4px solid rgb(235, 47, 47);
+}
+
+.instagram-logo-rodape{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
